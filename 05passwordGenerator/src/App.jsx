@@ -15,7 +15,7 @@ function App() {
       str += "0123456789"
     }
     if(charAllowed){
-      str += "!@#$%^&*()_-+={[}]|\\:;\'<,>.?/;`"
+      str += "!@#$%^&*()_-+={[}]|'<,>.?/;`"
     }
     for(let i = 1; i <= length; i++){
       let char = str[Math.floor(Math.random() * str.length)]
